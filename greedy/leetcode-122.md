@@ -1,5 +1,6 @@
-#Leetcode 122. Best Time to Buy and Sell Stock II
+# [Leetcode 122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 
+```python
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         #to keep track of the previous price
@@ -16,3 +17,4 @@ class Solution:
             prev_price = x
 
         return total_profit
+```
